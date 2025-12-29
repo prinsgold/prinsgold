@@ -3,34 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <title>تواصل معنا الآن</title>
-<style>
-  body {
-    font-family: Arial, sans-serif;
-    text-align: center;
-    padding: 50px;
-    background-color: #f2f2f2;
-  }
-  h1 {
-    color: #333;
-  }
-  p {
-    font-size: 18px;
-    color: #555;
-  }
-  a.whatsapp-button {
-    display: inline-block;
-    margin-top: 30px;
-    padding: 15px 30px;
-    background-color: #25D366;
-    color: white;
-    text-decoration: none;
-    font-size: 20px;
-    border-radius: 8px;
-  }
-  a.whatsapp-button:hover {
-    background-color: #1ebe57;
-  }
-</style>
+
 <!-- Snap Pixel Code -->
 <script type='text/javascript'>
 (function(e,t,n){if(e.snaptr)return;var a=e.snaptr=function()
@@ -40,21 +13,27 @@ r.src=n;var u=t.getElementsByTagName(s)[0];
 u.parentNode.insertBefore(r,u);})(window,document,
 'https://sc-static.net/scevent.min.js');
 
-snaptr('init', '36790d9d-16d0-4361-b58a-71eed37b9ddb', {
-'user_email': '__INSERT_USER_EMAIL__'
-});
+snaptr('init', '1fe15fa4-092b-45fd-8df9-4783068c46e7', {});
 
 snaptr('track', 'PAGE_VIEW');
-
 </script>
 <!-- End Snap Pixel Code -->
+
+<style>
+body { font-family: Arial, sans-serif; text-align: center; padding: 50px; background-color: #f2f2f2; }
+h1 { color: #333; }
+p { font-size: 18px; color: #555; }
+a.button { display: inline-block; margin-top: 30px; padding: 15px 30px; background-color: #25D366; color: white; text-decoration: none; font-size: 20px; border-radius: 8px; }
+a.button:hover { background-color: #1ebe57; }
+</style>
 </head>
 <body>
 
 <h1>تواصل معنا الآن</h1>
-<p>اضغط على الزر للتواصل معنا مباشرة عبر واتساب</p>
+<p>اضغط على الزر للتواصل عبر واتساب مباشرة</p>
 
-<a class="whatsapp-button" href="https://wa.me/971542212063" target="_blank">
+<a class="button" href="https://wa.me/971542212063" target="_blank"
+   onclick="snaptr('track','CUSTOM',{event:'WhatsApp_Click'});">
 💬 تواصل عبر واتساب
 </a>
 
